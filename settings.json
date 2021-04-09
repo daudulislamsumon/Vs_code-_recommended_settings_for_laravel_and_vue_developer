@@ -1,18 +1,17 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontWeight": 330,
     "editor.mouseWheelZoom": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#c0392b",
-        "editorIndentGuide.activeBackground": "#f39c12",
-        "editor.selectionBackground": "#c7ecee",
-        "editor.selectionHighlightBackground": "#c7ecee",
+        "editorIndentGuide.activeBackground": "#c23616",
+        "editor.selectionBackground": "#4cd137",
+        "editor.selectionHighlightBackground": "#4cd137",
         "editor.findMatchBackground": "#00cc44a8",
         "editor.findMatchHighlightBackground": "#ff7b00a1",
-        "terminal.background": "#FFFFFF",
+        "terminal.background": "#dfe6e9",
         "terminal.foreground": "#2c3e50",
         "terminalCursor.foreground": "#1e1ed1",
         "terminal.selectionBackground": "#f39c12"
@@ -40,7 +39,9 @@
     },
     "explorer.confirmDelete": false,
     "editor.cursorWidth": 3,
-    "editor.lineHeight": 25,
-    "editor.fontSize": 15,
-    "workbench.colorTheme": "GitHub Light"
+    "editor.lineHeight": 30,
+    "workbench.colorTheme": "Quiet Light",
+    "terminal.integrated.fontFamily": "Operator Mono",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "520"
 }
