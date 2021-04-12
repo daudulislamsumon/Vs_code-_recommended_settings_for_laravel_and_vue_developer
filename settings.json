@@ -14,7 +14,11 @@
         "terminal.background": "#dfe6e9",
         "terminal.foreground": "#2c3e50",
         "terminalCursor.foreground": "#1e1ed1",
-        "terminal.selectionBackground": "#f39c12"
+        "terminal.selectionBackground": "#f39c12",
+        "scrollbarSlider.activeBackground": "#e74c3c",
+        "scrollbarSlider.background": "#8c7ae6",
+        "scrollbarSlider.hoverBackground": "#2ecc71",
+        "editorBracketMatch.background": "#F79F1F"
     },
     "prettier.printWidth": 500,
     "prettier.tabWidth": 4,
@@ -35,7 +39,64 @@
     "terminal.integrated.cursorWidth": 5,
     "editor.minimap.enabled": false,
     "editor.tokenColorCustomizations": {
-        "comments": "#c0392b"
+        "[Quiet Light]": {
+            "comments": "#c0392b",
+            "strings": "#009432",
+            "textMateRules": [
+                {
+                    "scope": "punctuation",
+                    "settings": {
+                        "foreground": "#1B1464"
+                    }
+                },
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#0652DD"
+                    }
+                },
+                {
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#e67e22"
+                    }
+                },
+                {
+                    "scope": "string.quoted.double.html",
+                    "settings": {
+                        "foreground": "#be2edd"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.key.php",
+                    "settings": {
+                        "foreground": "#FF0000",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.tag.begin.html",
+                    "settings": {
+                        "foreground": "#5f27cd",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.tag.end.html",
+                    "settings": {
+                        "foreground": "#5f27cd",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.other.attribute-name.html",
+                    "settings": {
+                        "foreground": "#0abde3",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
     },
     "explorer.confirmDelete": false,
     "editor.cursorWidth": 3,
@@ -43,5 +104,28 @@
     "workbench.colorTheme": "Quiet Light",
     "terminal.integrated.fontFamily": "Operator Mono",
     "terminal.integrated.fontSize": 15,
-    "terminal.integrated.fontWeight": "520"
+    "terminal.integrated.fontWeight": "520",
+    "peacock.favoriteColors": [
+        { "name": "June Bud", "value": "#badc58" },
+        { "name": "Quince Jelly", "value": "#f0932b" },
+        { "name": "Heliotrope", "value": "#e056fd" },
+        { "name": "Pure Apple", "value": "#6ab04c" },
+        { "name": "Hint Of Ice Pack", "value": "#c7ecee" },
+        { "name": "Greenland Green", "value": "#22a6b3" },
+        { "name": "Turbo", "value": "#f9ca24" },
+        { "name": "Sun Flower", "value": "#f1c40f" },
+        { "name": "Pumpkin", "value": "#d35400" },
+        { "name": "Orange", "value": "#f39c12" },
+        { "name": "Wisteria", "value": "#8e44ad" },
+        { "name": "Midnight Blue", "value": "#2c3e50" },
+        { "name": "Matt Purple", "value": "#8c7ae6" },
+        { "name": "Blueberry Soda", "value": "#7f8fa6" },
+        { "name": "Ufo Green", "value": "#2ed573" },
+        { "name": "Lighter Purple", "value": "#a55eea" },
+        { "name": "Dark Periwinkle", "value": "#575fcf" },
+        { "name": "Minty Green", "value": "#0be881" }
+    ],
+    "peacock.affectTabActiveBorder": true,
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true
 }
