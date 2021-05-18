@@ -47,12 +47,15 @@
         { "name": "Dark Periwinkle", "value": "#575fcf" },
         { "name": "Minty Green", "value": "#0be881" }
     ],
-    "peacock.affectTabActiveBorder": true,
     "editor.fontWeight": "500",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBorder": "#ff0000",
+        "editor.lineHighlightBorder": "#8e44ad",
         "icon.foreground": "#f7b731",
+        "tab.activeBackground": "#305204",
+        "tab.hoverBorder": "#ff0000",
+        "progressBar.background": "#ff0000",
+        "tree.indentGuidesStroke": "#009432",
         "[Quiet Light]": {
             "editorCursor.foreground": "#c0392b",
             "editorIndentGuide.activeBackground": "#c23616",
