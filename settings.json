@@ -1,4 +1,12 @@
 {
+    // VSCode Recommended Settings For Laravel & Vue.js
+    // Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
+    // Creation Date: 01/01/2021
+    // Update Date: 21/05/2021
+    // *********************************************************
+    // === VSCode Recommended Settings For Laravel & Vue.js ===
+    // *********************************************************
+
     "editor.mouseWheelZoom": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "Fira Code, Operator Mono, JetBrains Mono, Consolas, monospace",
@@ -56,6 +64,8 @@
         "tab.hoverBorder": "#ff0000",
         "progressBar.background": "#ff0000",
         "tree.indentGuidesStroke": "#009432",
+        "editorIndentGuide.activeBackground": "#44bd32",
+        "editorWhitespace.foreground": "#f39c12",
         "[Quiet Light]": {
             "editorCursor.foreground": "#c0392b",
             "editorIndentGuide.activeBackground": "#c23616",
